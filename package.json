@@ -6,8 +6,26 @@
   "author": "Guilherme Fontes <gui.fontes.amorim@gmail.com>",
   "license": "APACHE",
   "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "size": "turbo run size",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "*",
+    "eslint": "7.32.0",
+    "prettier": "^2.5.1",
+    "turbo": "latest"
+  },
   "workspaces": [
     "packages/*",
     "apps/*"
-  ]
+  ],
+  "volta": {
+    "node": "16.13.0",
+    "yarn": "1.22.17"
+  }
 }
