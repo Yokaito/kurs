@@ -1,7 +1,17 @@
-type Test = string
+type Platform = 'vtex' | 'shopify'
 
-const test: Test = 'Guilherme Fontes'
+type ConfigurationKurs = {
+  platform: Platform
+}
 
-console.log('Kamity')
+export class kurs {
+  constructor(private readonly configuration: ConfigurationKurs) {}
 
-export { test }
+  public getPlatform(): Platform {
+    return this.configuration.platform
+  }
+}
+
+export default {
+  kurs,
+}
