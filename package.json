@@ -12,20 +12,28 @@
     "lint": "turbo run lint",
     "test": "turbo run test",
     "size": "turbo run size",
-    "clean": "turbo run clean && rm -rf node_modules"
+    "clean": "turbo run clean && rm -rf node_modules",
+    "postinstall": "npx husky install"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "commitizen": "^4.2.6",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.2",
     "eslint-config-custom": "*",
-    "eslint": "7.32.0",
-    "prettier": "^2.5.1",
+    "eslint": "8.30.0",
+    "prettier": "latest",
     "turbo": "latest"
   },
   "workspaces": [
     "packages/*",
     "apps/*"
   ],
-  "volta": {
-    "node": "16.13.0",
-    "yarn": "1.22.17"
-  }
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.0.0",
+    "yarn": ">=1.22.0"
+  },
+  "packageManager": "yarn@1.22.15"
 }

@@ -1,11 +1,20 @@
 {
-  "name": "sdk",
+  "name": "@kurs/sdk",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "license": "APACHE",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format cjs --dts",
-    "dev": "tsup src/index.ts --format cjs --dts --watch"
+    "dev": "tsup src/index.ts --format cjs --dts --watch",
+    "lint": "eslint src --ext .ts"
   },
   "dependencies": {
     "tsup": "^6.5.0"

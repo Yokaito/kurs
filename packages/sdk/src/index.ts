@@ -1,5 +1,7 @@
-type Test = string;
+type Test = string
 
-const test: Test = "Guilherme";
+const test: Test = 'Guilherme Fontes'
 
-export { test };
+console.log('Kamity')
+
+export { test }
