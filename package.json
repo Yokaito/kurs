@@ -10,7 +10,7 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "test": "turbo run test",
+    "test": "turbo run test --concurrency=1",
     "size": "turbo run size",
     "clean": "turbo run clean && rm -rf node_modules",
     "postinstall": "npx husky install"
@@ -24,7 +24,11 @@
     "eslint-config-custom": "*",
     "eslint": "8.30.0",
     "prettier": "latest",
-    "turbo": "latest"
+    "turbo": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^27.1.7"
   },
   "workspaces": [
     "packages/*",
