@@ -12,7 +12,7 @@
     "lint": "turbo run lint",
     "test": "turbo run test --concurrency=1",
     "size": "turbo run size",
-    "release": "lerna version minor --yes && lerna publish from-git --yes",
+    "release": "lerna version minor --yes --no-private && lerna publish from-git --yes --no-private",
     "clean": "turbo run clean && rm -rf node_modules",
     "postinstall": "npx husky install"
   },
