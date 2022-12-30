@@ -50,4 +50,4 @@ jobs:
         run: yarn test
 
       - name: Publish
-        run: lerna publish prepatch --yes --no-private --no-verify-access --ignore-scripts --conventional-commits --dist-tag alpha
+        run: lerna publish prepatch --yes --no-private --ignore-scripts --conventional-commits --dist-tag alpha
