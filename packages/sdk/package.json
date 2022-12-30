@@ -4,6 +4,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "APACHE",
+  "private": false,
   "files": [
     "dist",
     "src"
