@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.4-alpha.0](https://github.com/Yokaito/kurs/compare/v0.0.3-alpha.0...v0.0.4-alpha.0) (2022-12-30)
+
+### Chores
+
+- more trys to lerna publish ([e25752b](https://github.com/Yokaito/kurs/commit/e25752b4c1822b7b7430e83e58341b1e9b49b6a5))
+
 ## [0.0.3-alpha.0](https://github.com/Yokaito/kurs/compare/v0.0.2-alpha.0...v0.0.3-alpha.0) (2022-12-30)
 
 ### Chores
