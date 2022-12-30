@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.8-alpha.0](https://github.com/Yokaito/kurs/compare/v0.0.7-alpha.0...v0.0.8-alpha.0) (2022-12-30)
+
+### Chores
+
+- change workflow to see works ([40e7bce](https://github.com/Yokaito/kurs/commit/40e7bcefacd9182bfe96857e8fab621e3eec281b))
+
 ## [0.0.7-alpha.0](https://github.com/Yokaito/kurs/compare/v0.0.6-alpha.0...v0.0.7-alpha.0) (2022-12-30)
 
 ### Chores
