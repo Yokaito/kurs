@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.5-alpha.0 (2022-12-30)
+
+### Chores
+
+- add npm_token in var release-package ([29eabc3](https://github.com/Yokaito/kurs/commit/29eabc36f7df1e35f0fc47a53e447397cf624561))
+
+### Tests
+
+- add a mock suport from magento in package ([905ba5b](https://github.com/Yokaito/kurs/commit/905ba5bb7035161cba4d25d2ec6bd895186c7fcc))
+
 ## [0.0.4-alpha.0](https://github.com/Yokaito/kurs/compare/v0.0.3-alpha.0...v0.0.4-alpha.0) (2022-12-30)
 
 ### Chores
