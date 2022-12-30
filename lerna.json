@@ -4,7 +4,8 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "message": "Release: %v"
+      "message": "Release: %v",
+      "registry": "https://npm.pkg.github.com/"
     }
   },
   "changelogPreset": {
