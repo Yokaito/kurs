@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.6-alpha.0 (2022-12-30)
+
+### Chores
+
+- change workflow to see works ([1d50f39](https://github.com/Yokaito/kurs/commit/1d50f39bcc73975f3a3c821ceac0427bde9bdb2a))
+- change workflow to see works ([dd2e867](https://github.com/Yokaito/kurs/commit/dd2e8673448a6cc82d022e2950ed74079b55375c))
+
 ## 0.0.5-alpha.0 (2022-12-30)
 
 ### Chores
