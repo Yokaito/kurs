@@ -4,7 +4,7 @@
   "description": "Toolkit to menage multi-platform e-commerce",
   "repository": "https://github.com/Yokaito/kurs.git",
   "author": "Guilherme Fontes <gui.fontes.amorim@gmail.com>",
-  "license": "APACHE",
+  "license": "Apache-2.0",
   "private": true,
   "scripts": {
     "build": "turbo run build",

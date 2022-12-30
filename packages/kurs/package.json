@@ -1,10 +1,13 @@
 {
-  "name": "@kamity/sdk",
-  "version": "0.2.3",
+  "name": "@kamity/kurs",
+  "version": "0.0.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": "https://github.com/Yokaito/kurs.git",
   "license": "Apache-2.0",
-  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "files": [
     "dist",
     "src"
