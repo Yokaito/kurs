@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3-alpha.0](https://github.com/Yokaito/kurs/compare/v0.2.2-alpha.0...v0.2.3-alpha.0) (2022-12-30)
+
+### Features
+
+- mock feat to try to publish ([49cdcec](https://github.com/Yokaito/kurs/commit/49cdcecd743ed23d76dc81abf39d4673d2dbcb07))
+
 ## 0.2.2-alpha.0 (2022-12-30)
 
 ### Chores
