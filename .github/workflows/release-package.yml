@@ -30,7 +30,7 @@ jobs:
         with:
           node-version: 16
           cache: 'yarn'
-          registry-url: 'https://registry.npmjs.org/:_authToken=${NPM_TOKEN}'
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Configure CI Git User
         run: |
@@ -50,4 +50,4 @@ jobs:
         run: yarn test
 
       - name: Publish
-        run: lerna publish prepatch --yes --no-private --ignore-scripts --conventional-commits --dist-tag alpha
+        run: lerna publish prepatch --yes --no-private --no-verify-access --ignore-scripts --conventional-commits --dist-tag alpha
