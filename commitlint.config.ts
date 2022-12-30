@@ -1,9 +1,10 @@
-import type { UserConfig } from "@commitlint/types";
+import type { UserConfig } from '@commitlint/types'
 
 const Configuration: UserConfig = {
   extends: [`@commitlint/config-conventional`],
+  ignores: [(commit) => commit.includes('Release')],
   rules: {
-    "type-enum": [
+    'type-enum': [
       2,
       `always`,
       [
@@ -19,6 +20,6 @@ const Configuration: UserConfig = {
       ],
     ],
   },
-};
+}
 
-module.exports = Configuration;
+module.exports = Configuration
