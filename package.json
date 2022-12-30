@@ -12,23 +12,25 @@
     "lint": "turbo run lint",
     "test": "turbo run test --concurrency=1",
     "size": "turbo run size",
+    "release": "lerna version minor --yes && lerna publish from-git --yes",
     "clean": "turbo run clean && rm -rf node_modules",
     "postinstall": "npx husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
-    "commitizen": "^4.2.6",
-    "cz-conventional-changelog": "^3.3.0",
-    "husky": "^8.0.2",
-    "eslint-config-custom": "*",
-    "eslint": "8.30.0",
-    "prettier": "latest",
-    "turbo": "latest",
     "@typescript-eslint/eslint-plugin": "^5.47.1",
     "@typescript-eslint/parser": "^5.47.1",
+    "commitizen": "^4.2.6",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "8.30.0",
+    "eslint-config-custom": "*",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-jest": "^27.1.7"
+    "eslint-plugin-jest": "^27.1.7",
+    "husky": "^8.0.2",
+    "lerna": "^6.3.0",
+    "prettier": "latest",
+    "turbo": "latest"
   },
   "workspaces": [
     "packages/*",
