@@ -32,7 +32,7 @@ jobs:
 
       - name: Configure CI Git User
         run: |
-          git config user.name Kamity
+          git config user.name Yokaito
           git config user.email gui.fontes.amorim@gmail.com
 
       - name: Install dependencies
@@ -51,3 +51,4 @@ jobs:
         run: lerna publish prepatch --yes --no-private --ignore-scripts --conventional-commits --dist-tag alpha
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
