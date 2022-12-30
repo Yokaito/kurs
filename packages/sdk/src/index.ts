@@ -1,4 +1,4 @@
-type Platform = 'vtex' | 'shopify'
+type Platform = 'vtex' | 'shopify' | 'magento'
 
 type ConfigurationKurs = {
   platform: Platform
