@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.9-alpha.0](https://github.com/Yokaito/kurs/compare/v0.0.8-alpha.0...v0.0.9-alpha.0) (2023-01-04)
+
+### Tests
+
+- make first test to match typings for kurs return on transformation happen ([e19d469](https://github.com/Yokaito/kurs/commit/e19d469d4c2b116b595aa416add11f8bbbca1ebd))
+
 ## [0.0.8-alpha.0](https://github.com/Yokaito/kurs/compare/v0.0.7-alpha.0...v0.0.8-alpha.0) (2022-12-30)
 
 ### Chores
