@@ -1,4 +1,4 @@
-import { ProductKurs } from '../../src/typings/kurs'
+import { ProductKurs } from '@kurs/typings/kurs'
 
 export const mockTypeProductKurs: ProductKurs = {
   additionalProperty: [

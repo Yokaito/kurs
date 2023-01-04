@@ -1,5 +1,5 @@
-import { ProductKurs } from '../../src/typings/kurs'
-import { mockTypeProductKurs } from '../mocks/product.mock'
+import { ProductKurs } from '@kurs/typings/kurs'
+import { mockTypeProductKurs } from '@kurs/mocks/product'
 
 describe('[VTEX]', () => {
   describe('[PRODUCT]', () => {
