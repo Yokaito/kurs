@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.10-alpha.0](https://github.com/Yokaito/kurs/compare/v0.0.9-alpha.0...v0.0.10-alpha.0) (2023-01-04)
+
+### Refactoring
+
+- change folders and add paths to use in package ([a51fbab](https://github.com/Yokaito/kurs/commit/a51fbab0b46507c5e8b61f1bc6c9df116d3dcc55))
+
 ## [0.0.9-alpha.0](https://github.com/Yokaito/kurs/compare/v0.0.8-alpha.0...v0.0.9-alpha.0) (2023-01-04)
 
 ### Tests
